@@ -1,12 +1,18 @@
 # Union-in-C
+
 #include <stdio.h>
+
 union unionJob
+
 {
    //defining a union
+   
    char name[32];
    float salary;
    int workerNo;
-} uJob;
+   
+} 
+uJob;
 
 struct structJob
 {
